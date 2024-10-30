@@ -1,0 +1,125 @@
+/*** COOKING KEY ***/
+/* Author: David Perkins
+/* Plugin: Cooking Key
+/* Website: https://recipekeyplugin.com
+/* File: style.css
+/********************/
+
+
+.cooking-key-wrap {
+	display: block;
+	margin-left: -5px;
+	padding-bottom:10px;
+}
+
+.cooking-key-wrap:empty {
+display:none;
+}
+
+.cooking-key {
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	float: left;
+	color: #353535;
+	font-weight: 600;
+	font-size:13px;
+}
+
+.cooking-key:hover {
+	color:#7064b8;
+}
+
+.cooking-key-icon, .cooking-key-diet {
+	margin: -2px 2px 0 2px;
+	
+}
+
+/** END COOKING KEY ***/
+
+/** BEGIN COOKING LEGEND ***/
+.cooking-key-logo {
+	display:inline-block;
+	width: 100%;
+}
+
+.cooking-legend-wrap {
+	display: inline-block;
+	font-size:15px;
+}
+
+.cooking-key-legend {
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	float: left;
+	color: #353535;
+	font-weight: 600;
+	padding-bottom:15px;
+	font-size:13px;
+}
+/** END RECIPE LEGEND ***/
+
+@font-face {
+  font-family: 'ck-icon';
+  font-display: swap;
+  src:  url('fonts/ck-icon.woff2?csa29w') format('woff2'),
+    url('fonts/ck-icon.woff?csa29w') format('woff'),
+    url('fonts/ck-icon.svg?csa29w#ck-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ck-"], [class*=" ck-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ck-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 30px;
+  color: #353535;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ck-air-fryer:before {
+  content: "\e900";
+}
+.ck-blender:before {
+  content: "\e901";
+}
+.ck-crockpot:before {
+  content: "\e902";
+}
+.ck-food-processor:before {
+  content: "\e903";
+}
+.ck-grill:before {
+  content: "\e904";
+}
+.ck-instant-pot:before {
+  content: "\e905";
+}
+.ck-microwave:before {
+  content: "\e906";
+}
+.ck-mixer:before {
+  content: "\e907";
+}
+.ck-oven:before {
+  content: "\e908";
+}
+.ck-pressure-cooker:before {
+  content: "\e909";
+}
+.ck-slow-cooker:before {
+  content: "\e90a";
+}
+.ck-stove-top:before {
+  content: "\e90b";
+}
